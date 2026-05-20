@@ -1,0 +1,7 @@
+architecture:
+  backbone_dim: 512           # Channel size of extracted vision feature maps
+  num_classes: 20             # Max structural object categories
+  num_attributes: 15          # Max visual characteristics (e.g., color, material)
+  num_predicates: 10          # Max spatial/action relationships (e.g., 'riding', 'holding')
+inference:
+  confidence_threshold: 0.50
